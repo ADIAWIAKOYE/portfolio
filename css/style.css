@@ -737,6 +737,7 @@ h3.my-profession {
 
 @media (max-width: 770px) {
 
+    
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -749,7 +750,10 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
     }
-
+    .about .about-content .personal-info .info-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 
 
     .about .about-content .skills .button .btn {   
@@ -761,7 +765,7 @@ h3.my-profession {
        
         margin-right: 3%;
         align-content: center;
-        margin-left: 16%;
+        margin-left: 14%;
         background-color: red;
     }
     .lien em { 
