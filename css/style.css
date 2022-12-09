@@ -750,6 +750,8 @@ h3.my-profession {
         max-width: 100%;
     }
 
+
+
     .about .about-content .skills .button .btn {   
         margin-top: 4%;
         margin-left: 20%;
@@ -759,13 +761,38 @@ h3.my-profession {
        
         margin-right: 3%;
         align-content: center;
-        margin-left: 14%;
+        margin-left: 16%;
+        background-color: red;
     }
+    .lien em { 
+        padding-top: 20px; 
+        color: var(--skin-color);
+        font-size: 55px;
+        /* margin-right: 18px; */
+    }
+
+
+
+    .outils .skills {
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* margin-top: 20px; */
+    }
+    
     .outils .skills .skill-item {
         flex: 0 0 100%;
         max-width: 100%;
         /* margin-bottom: 25px; */
     }
+
+    .about .about-content .personal-info .info-item p {
+        font-weight: 600;
+        padding: 10px 0;
+        font-size: 16px;
+        color: var(--text-black-900);
+        border-bottom: 1px solid var(--bg-black-50);
+    }
+    
 }
 
 /*@media (max-width: 626px) {
