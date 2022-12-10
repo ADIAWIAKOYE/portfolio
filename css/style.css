@@ -781,16 +781,50 @@ h3.my-profession {
     }
 }*/
 
+/* @media (max-width: 9px){
+
+    .home-img{
+        position: relative !important;
+       top: -400px;
+
+
+    }
+
+    .home-info{
+        position: relative !important;
+        top: 500px;
+    }
+
+} */
+
 @media (max-width: 991px) {  
 
+   
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
-    .home .home-img {
-        display: none;
+    .home .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* position: relative; */
     }
+    .home-img{
+        position: relative !important;
+       top: -300px;
+
+
+    }
+
+    .home-info{
+        position: relative !important;
+        top: 500px;
+    }
+
+    /* .home .home-img {
+        display: none;
+    } */
 
     .competence .service-item,
     .portfolio .portfolio-item,
@@ -886,16 +920,32 @@ h3.my-profession {
     
 }
 
-/*@media (max-width: 626px) {
-    .about .about-content .personal-info .row {
-        display: block;
+@media (max-width: 626px) {
+    .home-img{
+        position: relative !important;
+       top: -400px;
+
+
     }
 
-    .competence .service-item,
-    .portfolio .portfolio-item,
-    .contact .contact-info-item,
-    .contact .contact-form .col-6 {
-        flex: 0 0 100%;
-        max-width: 100%;
+    .home-info{
+        position: relative !important;
+        top: 500px;
     }
-} */
+
+} 
+
+@media (max-width: 500px) {
+    .home-img{
+        position: relative !important;
+       top: -450px;
+
+
+    }
+
+    .home-info{
+        position: relative !important;
+        top: 600px;
+    }
+
+} 
