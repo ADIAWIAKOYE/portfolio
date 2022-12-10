@@ -738,6 +738,10 @@ h3.my-profession {
 
 
 @media (max-width: 1199px) {
+
+    .portfolio .portfolio-item:hover {
+        transform: scale(1.15);    
+    }
    
     .section .container{
         padding-top: 70px;
@@ -771,6 +775,14 @@ h3.my-profession {
     .section.open{
         left: 270px;
     }
+
+    .competence .service-item .service-item-inner:hover {
+        box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    }
+
+    .lien em:hover {
+        transform: scale(1.05);
+    }
 }
 
 /* @media (max-width: 1029px) {
@@ -799,6 +811,9 @@ h3.my-profession {
 
 @media (max-width: 991px) {  
 
+    .portfolio .portfolio-item:hover {
+        transform: scale(1.15);    
+    }
    
     .home .home-info {
         flex: 0 0 100%;
@@ -832,10 +847,19 @@ h3.my-profession {
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .competence .service-item .service-item-inner:hover {
+        box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    }
+    .lien em:hover {
+        transform: scale(1.05);
+    }
 }
 
 @media (max-width: 770px) {
 
+    .portfolio .portfolio-item:hover {
+        transform: scale(1.15);    
+    }
     
     .contact .contact-form .col-6,
     .contact .contact-info-item,
@@ -858,26 +882,6 @@ h3.my-profession {
         margin-left: auto;
         margin-right: auto;
     }
-
-    /* .about .about-content .skills .button .btn {   
-        margin-top: 4%;
-        margin-left: 20%;
-    }
-    
-    .lien a {  
-       
-        margin-right: 3%;
-        align-content: center;
-        margin-left: 14%;
-        background-color: red;
-    }
-    .lien em { 
-        padding-top: 20px; 
-        color: var(--skin-color);
-        font-size: 55px;
-        /* margin-right: 18px; */
-
-
 
 
     .outils .skills {
@@ -915,12 +919,23 @@ h3.my-profession {
         margin-left: 4px;
         display: inline-block;
     }
+    .competence .service-item .service-item-inner:hover {
+        box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    }
 
+    .lien em:hover {
+        transform: scale(1.05);
+    }
     
     
 }
 
 @media (max-width: 626px) {
+
+    .portfolio .portfolio-item:hover {
+        transform: scale(1.15);    
+    }
+
     .home-img{
         position: relative !important;
        top: -400px;
@@ -933,9 +948,22 @@ h3.my-profession {
         top: 500px;
     }
 
+    .competence .service-item .service-item-inner:hover {
+        box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    }
+
+    .lien em:hover {
+        transform: scale(1.05);
+    }
+
 } 
 
 @media (max-width: 500px) {
+
+    .portfolio .portfolio-item:hover {
+        transform: scale(1.15);    
+    }
+
     .home-img{
         position: relative !important;
        top: -450px;
@@ -946,6 +974,14 @@ h3.my-profession {
     .home-info{
         position: relative !important;
         top: 600px;
+    }
+
+    .competence .service-item .service-item-inner:hover {
+        box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    }
+
+    .lien em:hover {
+        transform: scale(1.05);
     }
 
 } 
