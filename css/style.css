@@ -853,6 +853,12 @@ h3.my-profession {
     .lien em:hover {
         transform: scale(1.05);
     }
+    .home-img::after{
+        display: none;
+    }
+    .home-img::before{
+        display: none;
+    }
 }
 
 @media (max-width: 770px) {
