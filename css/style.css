@@ -460,6 +460,7 @@ h3.my-profession {
     max-width: 40%;
     margin-top: 40px;
     padding-top: 60px;
+    /* background-color: red; */
 }
 
 .about .about-content .skills .btnm{
@@ -472,18 +473,25 @@ h3.my-profession {
     margin-top: 4%;
     margin-left: 20%;
 }
+.about .about-content .skills .lien a .l {
+    color: #006699;
+}
+
+.about .about-content .skills .lien a .g {
+    color: var(--text-black-900);
+}
 
 .lien a {  
    
     margin-right: 3%;
     align-content: center;
-    margin-left: 16%;
+    margin-left: 18%;
 }
 .lien em { 
     padding-top: 20px; 
-    color: var(--skin-color);
+     color: none;
     font-size: 55px;
-    /* margin-right: 18px; */
+
 }
 .lien em:hover {
     transform: scale(1.05);
