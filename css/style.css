@@ -746,6 +746,12 @@ h3.my-profession {
 
 
 @media (max-width: 1199px) {
+    .home .home-img::after{
+        display: none;
+    }
+    .home .home-img::before{
+        display: none;
+    }
 
     .portfolio .portfolio-item:hover {
         transform: scale(1.15);    
@@ -861,10 +867,10 @@ h3.my-profession {
     .lien em:hover {
         transform: scale(1.05);
     }
-    .home-img::after{
+    .home .home-img::after{
         display: none;
     }
-    .home-img::before{
+    .home .home-img::before{
         display: none;
     }
 }
@@ -950,16 +956,21 @@ h3.my-profession {
         transform: scale(1.15);    
     }
 
-    .home-img{
+    .home .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* position: relative; */
         position: relative !important;
-       top: -400px;
-
-
+        top: -500px;
     }
 
-    .home-info{
+
+    .home .home-info{
         position: relative !important;
-        top: 500px;
+        top: 400px;
+        flex: 0 0 100%;
+        max-width: 100%;
+
     }
 
     .competence .service-item .service-item-inner:hover {
@@ -974,20 +985,32 @@ h3.my-profession {
 
 @media (max-width: 500px) {
 
+    .home .home-img::after{
+        display: none;
+    }
+    .home .home-img::before{
+        display: none;
+    }
+
     .portfolio .portfolio-item:hover {
         transform: scale(1.15);    
     }
 
-    .home-img{
+    .home .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* position: relative; */
         position: relative !important;
-       top: -450px;
-
-
+        top: -600px;
     }
 
-    .home-info{
+
+    .home .home-info{
         position: relative !important;
-        top: 600px;
+        top: 400px;
+        flex: 0 0 100%;
+        max-width: 100%;
+
     }
 
     .competence .service-item .service-item-inner:hover {
@@ -999,3 +1022,23 @@ h3.my-profession {
     }
 
 } 
+/* @media (max-width: 300px) {
+
+    .home .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+         position: relative; 
+        position: relative !important; 
+        margin-top: -900px;
+    }
+
+
+    .home .home-info{
+        position: relative !important;
+        top: 300px;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+
+} */
