@@ -713,7 +713,7 @@ h3.my-profession {
 }
 .contact .contact-form .col-12 {
     flex: 0 0 100%;
-    max-width: 100%; 
+    max-width: 100%
 }
 
 .contact .contact-form .form-item {
@@ -817,7 +817,7 @@ h3.my-profession {
 
 } */
 
-@media (max-width: 991px) {  
+@media (width: 991px) {  
 
     .portfolio .portfolio-item:hover {
         transform: scale(1.15);    

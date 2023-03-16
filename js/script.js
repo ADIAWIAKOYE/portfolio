@@ -1,6 +1,6 @@
 /* ========================= Typing Animation ========================= */
 let typed = new Typed(".typing", {
-    strings:["", "DEVELOPPEUR WEB et MOBILE", "DEVELOPPEUR BACK-END", "DEVELOPPEUR DESKTOP", "DEVELOPPEUR FRONT-END"],
+    strings:["", "DEVELOPPEUR WEB et MOBILE", "DEVELOPPEUR BACK-END", "DEVELOPPEUR FRONT-END"],
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true
