@@ -11,6 +11,17 @@
     <link rel="stylesheet" href="css/skins/style-switcher.css">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
     <link rel="shortcut icon" href="./image/API.png" type="image/x-icon">
+    <script src="./js/index.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("OpTkJLKdGBxMhcvrP");
+   })();
+</script>
+
 </head>
 <body>
      <!-- ===Main Container Start=== -->
@@ -522,48 +533,52 @@
                     <!-- <h4 class="contact-sub-title padd-15">JE SUIS TRES REACTIF AU MESSAGES</h4> -->
 
                      <!-- ====== contacte FORM =========-->
-                      <form action="">
-                     <div class="row">
-                        <div class="contact-form padd-15">
-                            <div class="row">
-
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
+                      <!-- <form name="myForm" onsubmit="return validateForm()" method="post"> -->
+                        <div class="row">
+                            <div class="contact-form padd-15">
+                                <form id="emailForm">
+                                    <div class="row">
+                                        <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Nom" name="name" id="name">
+                                            </div>
+                                        </div>
+                        
+                                        <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Email" name="email" id="email">
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
+                        
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Objet" name="subject" id="subject">
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Objet">
+                        
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                                <textarea name="message" class="form-control" id="message" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="text" class="form-control" id="" placeholder="Message"></textarea>
+                        
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <button type="submit" class="btn">Envoyer</button>
+                                        </div>
                                     </div>
-                                </div>
+                                </form>
                             </div>
-
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <button type="submit" class="btn">Envoyez</button>
-                                </div>
-                            </div>
-
                         </div>
-                     </div>
-                    </form>
+                        
+
+                    <!-- </form> -->
+                    
                 </div>
              </section>
 
@@ -598,5 +613,6 @@
      referrerpolicy="no-referrer"></script>
      <script src="js/script.js"></script>
      <script src="./js/style-switcher.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </body>
 </html>

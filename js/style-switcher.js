@@ -14,3 +14,30 @@ window.addEventListener("load", () => {
         dayNight.querySelector("em").classList.add("fa-moon")
     }
 })
+
+
+// function validateForm() {
+//     var name = document.forms["myForm"]["name"].value;
+//     var email = document.forms["myForm"]["email"].value;
+//     var subject = document.forms["myForm"]["subject"].value;
+//     var message = document.forms["myForm"]["message"].value;
+  
+//     // valider les entrées utilisateur
+//     if (name == "" || email == "" || subject == "" || message == "") {
+//       alert("Veuillez remplir tous les champs du formulaire.");
+//       return false;
+//     }
+  
+//     // vérifier si l'email est valide
+//     if (!validateEmail(email)) {
+//       alert("L'adresse email saisie n'est pas valide.");
+//       return false;
+//     }
+  
+//     return true;
+//   }
+  
+//   function validateEmail(email) {
+//     var re = /\S+@\S+\.\S+/;
+//     return re.test(email);
+//   }
