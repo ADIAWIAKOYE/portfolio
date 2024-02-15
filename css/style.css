@@ -1001,13 +1001,13 @@ h3.my-profession {
         max-width: 100%;
         /* position: relative; */
         position: relative !important;
-        top: -640px;
+        top: -660px;
     }
 
 
     .home .home-info{
         position: relative !important;
-        top: 400px;
+        top: 440px;
         flex: 0 0 100%;
         max-width: 100%;
 
